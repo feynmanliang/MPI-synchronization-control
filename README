@@ -1,0 +1,4 @@
+This binary implements three common MPI synchronization controls. 
+- Manager Worker designates node 0 as manager and passes messages to workers.
+- Forward and reverse token passing pass tokens sequentially across nodes.
+All nodes print through a printer node to make sure stdout messages appear in order
